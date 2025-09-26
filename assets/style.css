@@ -3,3 +3,65 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.hero .col img {
+    width: 500px;
+}
+
+.hero .col p{
+    width: 500px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about .col img {
+    width: 500px;
+}
+
+@media(  max-width: 1024px ) {
+    .hero .col img {
+        width: 400px;
+    }
+    
+    .hero .col p{
+        font-size: 14px;
+        width: 400px;
+    }
+}
+
+@media(max-width: 992px) {
+    #hero{
+        padding-top:50px;
+    }
+    
+    .hero .col img {
+        width: 300px;
+    }
+    
+    .hero .col p{
+        
+        width: 100%;
+    }
+
+    .about .col img {
+    width: 300px;
+}
+}
+
+@media(min-width: 1025px) and (max-width: 1199px) {
+    .hero .col img {
+        width: 400px;
+    }
+    
+    .hero .col p{
+        width: 400px;
+    }
+
+  
+}
+
+
+
