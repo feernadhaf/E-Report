@@ -14,6 +14,8 @@ body {
     width: 500px;
 }
 
+
+
 section {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -36,6 +38,16 @@ footer{
     opacity: 100%;
     
 }
+
+.hero .col:nth-child(1){
+     --animate-delay: 0.5s;
+} 
+#recent{
+    padding-top: 50px;
+}
+
+
+
 
 @media(  max-width: 1024px ) {
     .hero .col img {
